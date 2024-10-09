@@ -1,0 +1,128 @@
+:root {
+  --font-family: "Noto Sans Thai", sans-serif;
+
+  // --color-primary: #007aff;
+  // --color-secondary: #ff8c00;
+  // --color-tertiary: #004cdd;
+  // --color-light: #fff;
+  // --color-snow: #f7f7f7;
+  // --color-black: #111;
+  // --color-dark: #333;
+  // --color-default: #c5c5c5;
+  // --color-gray: #999;
+  // --color-warning: #ec4546;
+  // --color-success: #00e066;
+
+  // --color-border: #ebebeb;
+
+  --color-black: #0D0D0D;
+  --color-white: #fff;
+  --color-onyx: #181818;
+  --color-dark-gray: #808080;
+  --color-medium-gray: rgba(128, 128, 128, 0.5);
+  --color-light-gray: #C5C5C5;
+  --color-light-blue: rgba(63, 100, 234, 0.43);
+  --color-light-red: rgba(233, 63, 64, 0.43);
+  --color-light-yellow: rgba(255, 184, 0, 0.43);
+
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+  --fw-extra-bold: 800;
+  
+  --typo-h: 80px;
+  --typo-xxl: 42px;
+  --typo-xl: 33px;
+  --typo-lg: 24px;
+  --typo-md: 20px;
+  --typo-sm: 18px;
+  --typo-default: 16px;
+  --typo-xs: 14px;
+
+  --transition: all 400ms ease;
+  --transition-delay: 100ms;
+
+  --box-shadow: 0 3px 6px rgba(0,0,0,0.1); 
+}
+
+// .text-primary{color: var(--color-primary) !important;}
+// .text-secondary{color: var(--color-secondary) !important;}
+// .text-tertiary{color: var(--color-tertiary) !important;}
+// .text-light{color: var(--color-light) !important;}
+// .text-black{color: var(--color-black) !important;}
+// .text-dark{color: var(--color-dark) !important;}
+// .text-default{color: var(--color-default) !important;}
+// .text-gray{color: var(--color-gray) !important;}
+// .text-warning{color: var(--color-warning) !important;}
+// .text-success{color: var(--color-success) !important;}
+// .text-border{color: var(--color-border) !important;}
+// .text-snow{color: var(--color-snow) !important;}
+
+// .bg-primary{background-color: var(--color-primary) !important;}
+// .bg-secondary{background-color: var(--color-secondary) !important;}
+// .bg-tertiary{background-color: var(--color-tertiary) !important;}
+// .bg-light{background-color: var(--color-light) !important;}
+// .bg-black{background-color: var(--color-black) !important;}
+// .bg-dark{background-color: var(--color-dark) !important;}
+// .bg-default{background-color: var(--color-default) !important;}
+// .bg-gray{background-color: var(--color-gray) !important;}
+// .bg-warning{background-color: var(--color-warning) !important;}
+// .bg-success{background-color: var(--color-success) !important;}
+// .bg-border{background-color: var(--color-border) !important;}
+// .bg-snow{background-color: var(--color-snow) !important;}
+
+// .text-black {}
+// .text-white {}
+// .text-onyx {}
+// .text-dark-gray {}
+// .text-light-gray {}
+// .text-light-blue {}
+// .text-medium-gray {}
+// .text-black {}
+// .text-black {}
+
+
+.fw-light{font-weight: var(--fw-light);}
+.fw-normal{font-weight: var(--fw-normal);}
+.fw-medium{font-weight: var(--fw-medium);}
+.fw-bold{font-weight: var(--fw-bold);}
+
+.typo-xxl{font-size: var(--typo-xxl);}
+.typo-xl{font-size: var(--typo-xl);}
+.typo-lg{font-size: var(--typo-lg);}
+.typo-md{font-size: var(--typo-md);}
+.typo-sm{font-size: var(--typo-sm);}
+.typo-default{font-size: var(--typo-default);}
+.typo-xs{font-size: var(--typo-xs);}
+
+// breakpoints
+@media (max-width: 1600px) {
+}
+@media (max-width: 1400px) {
+    :root {
+        --typo-lg: 24px; 
+        --typo-xl: 31px; 
+        --typo-xxl: 40px; 
+    }
+}
+@media (max-width: 1199px) {
+    :root {
+        --typo-lg: 22px; 
+        --typo-xl: 28px; 
+        --typo-xxl: 36px; 
+    }
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+    :root {
+        --typo-xs: 13px; 
+        --typo-default: 15px;
+        --typo-sm: 16px; 
+        --typo-md: 18px; 
+        --typo-lg: 20px; 
+        --typo-xl: 24px; 
+        --typo-xxl: 28px; 
+    }
+}
